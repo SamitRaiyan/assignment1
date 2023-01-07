@@ -1,0 +1,117 @@
+/* Head Code Start */
+header{
+    background-image: url(images/banner/banner2.png);
+    height: 800px;
+    width: 1520px;
+}
+.text-btn{
+    padding-top: 230px;
+    margin: 0px 230px 370px 850px;
+}
+.btn1{
+    background-color: orangered;
+    color: white;
+    font-size: 15px;
+    border-radius: 5%;
+    border: 0;
+    width: 130px;
+   height: 45px;
+   margin-left: 300px;
+}
+.head-heading{
+    text-align: right;
+    font-weight: 700;
+    font-size: 55px;
+}
+.head-text{
+    text-align: right;
+}
+
+
+/* Head Code End */
+
+/* Body Code Start */
+.body-content{
+    display: flex;
+    margin: 130px 322px 130px 206px;
+}
+.body-heading{
+    font-weight: 700px;
+    font-size: 40px;
+}
+.body-content{
+    align-items: center;
+}
+.body-image{
+    margin-right: 87px;
+}
+.list-heading{
+   text-align: center;
+   font-weight: 700;
+   font-size: 40px;
+}
+.list-icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 1px 230px 124px 230px;
+
+}
+.icon-text{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+.web{
+    padding-left: 50px;
+}
+.js{
+    padding-left: 10px;
+}
+.smoke{
+    padding-left: 45px;
+}
+.ecom{
+    padding-left: 25px;
+}
+.paratext{
+    color: #737272;
+    font-weight: 500;
+font-size: 25px;
+text-align: center;
+}
+/* Body Code End */
+
+/* Footer Code Start */
+.total-footer{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.value{
+    width: 250px;
+    border-radius: 5%;
+    height: 30px;
+    margin: 10px ;
+    background-color: black;
+    color: white;
+
+}
+.btn3{
+    width: 160px;
+    height: 60px;
+    background-color: white;
+    color: orangered;
+    border-radius: 5%;
+    height: 64px;
+}
+.social-icon{
+    display: flex;
+    flex-direction: row;
+}
+.footer-right{
+    display: flex;
+    flex-direction: column
+}
+
+/* Footer Code End */
