@@ -1,6 +1,9 @@
 /* Head Code Start */
+*{
+    font-family: work sans;
+}
 header{
-    background-image: url(images/banner/banner2.png);
+    background-image: url(./images/banner/banner2.png);
     height: 800px;
     width: 1520px;
 }
@@ -80,38 +83,112 @@ header{
 font-size: 25px;
 text-align: center;
 }
+/* gradient part */
+.gradient{
+    margin-right: 230px;
+    margin-left: 230px;
+    background-image:  linear-gradient(to left, rgba(9, 31, 154, 0), rgba(111, 89, 168, 0.945)),
+     url(./watch.png);
+     width: 1050px;
+     height: 300px;
+ margin-bottom: 130px;
+ border-radius: 8px;
+ 
+ }
+ .textingradient{
+     padding-left: 50px;
+     padding-right: 400px;
+     padding-bottom: 60px;
+     padding-top: 30px;
+ }
+ .gradienttext{
+     font-weight: 700;
+     font-size: 40px;
+     color: white;
+ 
+ }
+ .textingradient button{
+     font-weight: 500;
+     font-size: 20px;
+     color: rgb(60, 4, 245);
+     text-decoration: none;
+     margin-top: 20px;
+     height: 60px;
+     border-radius: 8px;
+     border: none;
+     width: 150px;
+     background-color: rgb(255, 255, 255);
+ }
 /* Body Code End */
-
+/* Extra Code Start */
+.extra-h{
+    text-align: center;
+    color: red;
+}
+.extra-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+/* Extra Code End */
 /* Footer Code Start */
-.total-footer{
+
+.sitefooter{
+    
     background-color: black;
-    color: white;
-    display: flex;
+    
 }
-.value{
-    width: 250px;
-    border-radius: 5%;
-    height: 30px;
-    margin: 10px ;
-    background-color: black;
-    color: white;
+.foot{margin-left: 230px ;
+    margin-right: 230px;
+   padding-bottom: 130px;
+   padding-top: 130px;
+    display: flex;
+    gap:330px;
+    color: antiquewhite;
+}
+.footer head{
+    font-weight: 700;
 
 }
-.btn3{
-    width: 160px;
+.subscribebtn{
+font-weight: 500;
+font-size: 15px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
     height: 60px;
-    background-color: white;
-    color: orangered;
-    border-radius: 5%;
-    height: 64px;
+    border-radius: 8px;
+    width: 120px;
+    background-color:orangered;
 }
-.social-icon{
-    display: flex;
-    flex-direction: row;
+.footerimage{
+display: flex;
+gap: 20px;
 }
-.footer-right{
-    display: flex;
-    flex-direction: column
+.future p{
+    font-weight: 400;
+font-size: 16px;
+color: rgb(221, 221, 240);
 }
-
+.future h2{
+    font-weight: 700;
+font-size: 45px;
+}
+#email{
+    
+    height: 40px;
+    width: 250px;
+    color: white;
+    border-radius: 8px;
+    background-color: black;
+    
+    
+}
+.leftfooterhead{
+    font-weight: 600;
+font-size: 25px;
+}
 /* Footer Code End */
